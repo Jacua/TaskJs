@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<title>Tarea App</title>
-	<link href="main.5481113f72df282f9485.css" rel="stylesheet"></head>
+	<link href="main.92498c6a90327058d130.css" rel="stylesheet"></head>
 	<body>
 
 		<div class="row mt-2">
@@ -49,26 +49,24 @@
 					</div>
 					<div class="card-footer">
 						<footer class="footer">
-							<!-- This should be `0 items left` by default -->
-							<span class="todo-count"><strong>0</strong> pendiente(s)</span>
-							<!-- Remove this if you don't implement routing -->
-							<ul class="filters">
-								<li>
-									<a class="selected filtro btn btn-info" href="#/">Todos</a>
-								</li>
-								<li>
-									<a class="filtro btn btn-info" href="#/active">Pendientes</a>
-								</li>
-								<li>
-									<a class="filtro btn btn-info" href="#/completed">Completados</a>
-								</li>
-							</ul>
-							<!-- Hidden if no completed items are left ↓ -->
-							<button class="clear-completed btn btn-info">Borrar completados</button>
+							<div class="row">
+								<ul class="filters">
+									<li>
+										<a class="selected filtro btn btn-info" href="#/">Todos</a>
+									</li>
+									<li >
+										<a class="filtro btn btn-info" href="#/active">Pendientes</a>
+									</li>
+									<li >
+										<a class="filtro btn btn-info" href="#/completed">Completados</a>
+									</li>
+									<li class="col-md-6">
+										<button class="clear-completed btn btn-danger">Borrar completados</button>
+									</li>
+								</ul>
+							</div>
 						</footer>
 					</div>
-				  
-
 			</div>
 		</div>
 		
