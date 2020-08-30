@@ -1,5 +1,5 @@
 import './styles.css';
-import {Todo,TodoList} from './classes';
+import {Todo,TodoList} from './classes/index';
 import {crearTodoHtml} from './js/componentes';
 
 export const Todolist = new TodoList();
