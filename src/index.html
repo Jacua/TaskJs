@@ -49,26 +49,24 @@
 					</div>
 					<div class="card-footer">
 						<footer class="footer">
-							<!-- This should be `0 items left` by default -->
-							<span class="todo-count"><strong>0</strong> pendiente(s)</span>
-							<!-- Remove this if you don't implement routing -->
-							<ul class="filters">
-								<li>
-									<a class="selected filtro btn btn-info" href="#/">Todos</a>
-								</li>
-								<li>
-									<a class="filtro btn btn-info" href="#/active">Pendientes</a>
-								</li>
-								<li>
-									<a class="filtro btn btn-info" href="#/completed">Completados</a>
-								</li>
-							</ul>
-							<!-- Hidden if no completed items are left ↓ -->
-							<button class="clear-completed btn btn-info">Borrar completados</button>
+							<div class="row">
+								<ul class="filters">
+									<li>
+										<a class="selected filtro btn btn-info" href="#/">Todos</a>
+									</li>
+									<li >
+										<a class="filtro btn btn-info" href="#/active">Pendientes</a>
+									</li>
+									<li >
+										<a class="filtro btn btn-info" href="#/completed">Completados</a>
+									</li>
+									<li class="col-md-6">
+										<button class="clear-completed btn btn-danger">Borrar completados</button>
+									</li>
+								</ul>
+							</div>
 						</footer>
 					</div>
-				  
-
 			</div>
 		</div>
 		
